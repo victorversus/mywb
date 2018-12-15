@@ -1,0 +1,227 @@
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;border: 0;
+	background-image: url(Video-Wallpaper-Background-Image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
+}
+
+
+div nav ul li {
+	float:left;
+	margin-right: 50px;
+	list-style-type: none;
+	
+}
+div nav ul li a {
+	text-decoration: none;
+	color:#0053A2;
+	font-size: 20px;
+	display: block;
+}
+li.orta {
+	margin-right: 60px;
+	
+}
+
+li.log1 {
+	margin-left: 300px;
+}
+
+li.log1 :hover{
+	background-size: cover;
+	background-color: #FF742A;
+	color:ghostwhite;
+}
+div.nav  {
+	width: 100%;
+	height: 50px;
+	
+	
+}
+li.logo a {
+	margin-right: 350px;
+    font-weight: bold;
+	
+}
+
+
+div nav ul {
+	position: fixed;
+	
+	
+}
+footer {
+	width:100%;
+	height: 40px;
+	background:#002874;
+	color:aqua;
+	margin-top: 200px;
+	bottom:0;
+	left: 0;
+	position: fixed;
+}
+footer h5 {
+	float:left;
+	margin-bottom: 1px;
+	margin-top: 8px;
+	margin-left: 30px;
+	padding: 0;
+	
+} 
+footer h4 {
+	float: right;
+	margin-top: 5px;
+	margin-right: 30px;
+	padding: 0;
+}
+div.newlogin {
+	width: 300px;
+	height: 220px;
+	
+	background-color: transparent;
+   
+	margin-top: 110px;
+	margin-left: 400px;
+	float: left;
+	
+}
+
+
+div.newlogin p {
+	text-align: center;
+	font-size: 40px;
+	color:white;
+	
+}
+input.user {
+	
+	margin-left: 45px;
+	margin-top: 25px;
+	border:none;
+	border-bottom:1px solid #02D3CB;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	width: 200px;
+	font-size: 20px;
+	color:white;
+	
+}
+input.pass {
+	
+	margin-left: 45px;
+	margin-top: 10px;
+	border:none;
+	border-bottom:1px solid #02D3CB;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	width: 200px;
+	font-size: 20px;
+	color:white;
+	
+}
+
+
+input.subbutton {
+	width:200px;
+	height: 30px;
+	outline: none;
+	color:white;
+	background: transparent;
+	border:none;
+	border:2px solid green;
+	border-radius: 3px;
+	margin-left: 45px;
+	margin-top: 25px;
+	cursor: pointer;
+	margin-bottom: 10px;font-size: 18px;
+}
+
+input.subbutton:active {
+	border:3px solid #001E67;
+	background: #001E67;
+	color:white;
+	
+}
+.newlogin a {
+	text-decoration: none;
+	color:white;
+	margin-left:45px;
+	margin-bottom: 10px;
+	
+
+}
+div.button1  {
+	width: 220px;
+	height: 100px;
+	float:left;
+	margin-left: 50px;
+	margin-top: 300px;
+
+}
+div.newlogin form {
+    width: 300px;
+	height: 220px;
+	border-right: 1px solid #058CCF;
+	
+	
+}
+div.button1 button.fb {
+	width:220px;
+	height: 37px;
+	background: #3B579D;
+	border:none;
+	outline: none;
+	border-left: 10px solid #3B579D;
+	color:white;
+	background-image: url(fb.png);
+	background-size:30px 30px;
+	background-repeat: no-repeat;
+	font-weight: 100;
+	font-size: 14px;
+	padding-left:45px;
+	border-radius: 3px;
+	
+	margin-top: 10px;
+	
+	
+}
+div.button1 button.google {
+	width:220px;
+	height: 36px;
+	background: rgb(220, 78, 65);
+	border:none;
+	outline: none;
+	border-left: 15px solid rgb(220, 78, 65);
+	border-top: 4px solid rgb(220, 78, 65);
+	color:white;
+	background-image:url(google.png);
+	background-size:30px 30px;
+	background-repeat: no-repeat;
+	font-weight: 100;
+	font-size: 14px;
+	padding-left:30px;
+	border-radius: 3px;
+	
+	margin-top: 10px;
+	
+}
+div.button1 button:hover {
+	opacity: 0.7;
+	cursor: pointer;
+	z-index: -1;
+}
+div.button1 button:active {
+	box-shadow: 0 8px 14px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+}
+div.newlogin input::placeholder {
+	color:aqua;
+}
+
+
+
